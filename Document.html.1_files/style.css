@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    width: 300px;
+    background: #e26c06a9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+.avatar{
+    width: 200px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #555;
+    box-shadow: 0 2px 6px rgba(3, 3, 177, 0.984);
+    margin: -80px auto 15px;
+    display: block;
+    background: #ddd;
+}
+.name{
+    margin: 20px 0 5px;
+    font-size: 40px;
+    color: blue ;
+
+}
+.bio{
+    color: #123456;
+    margin-bottom: 80px;
+}
+.link{
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #eb0518e0;
+    color: #000201fc;
+    transition: background-color 0.2, color 0.2;
+
+}
+.link:hover{
+    background-color: #00000010;
+    color: rgb(89, 43, 226);
+}
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    width: 300px;
+    background: #e26c06a9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+.avatar{
+    width: 200px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #555;
+    box-shadow: 0 2px 6px rgba(3, 3, 177, 0.984);
+    margin: -80px auto 15px;
+    display: block;
+    background: #ddd;
+}
+.name{
+    margin: 20px 0 5px;
+    font-size: 40px;
+    color: blue ;
+    padding: 10px;
+
+}
+.bio{
+    color: #123456;
+    margin-bottom: 80px;
+}
+.link{
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #eb0518e0;
+    color: #000201fc;
+    transition: background-color 0.2, color 0.2;
+
+}
+.link:hover{
+    padding: 20px;
+    background-color: #00000010;
+    color: rgb(89, 43, 226);
+}
+
+
+
+
+
+body {
+    gap: 20px;
+}
